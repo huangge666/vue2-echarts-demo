@@ -1,0 +1,1 @@
+"use strict";(self["webpackChunkvue_manager"]=self["webpackChunkvue_manager"]||[]).push([[353],{9353:function(e,n,u){u.r(n),u.d(n,{default:function(){return f}});var a=function(){var e=this,n=e._self._c;return n("div",{staticClass:"box"})},t=[],r={name:"Box"},s=r,l=u(1001),c=(0,l.Z)(s,a,t,!1,null,"6dbf5a52",null),f=c.exports}}]);

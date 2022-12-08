@@ -16,7 +16,7 @@ module.exports = defineConfig({
   transpileDependencies: true,
   devServer: {
     host: "0.0.0.0",
-    port: 8080,
+    port: 8888,
     // proxy: {
     //   [process.env.VUE_APP_BASE_API]: {
     //     target: `http://10.0.0.202:8080`,
@@ -38,5 +38,12 @@ module.exports = defineConfig({
       plugins: [],
     };
     return configureWebpack;
+  },
+  css: {
+    loaderOptions: {
+      scss: {
+        additionalData: `@import "~@/assets/sass/util.scss";`,
+      },
+    },
   },
 });

@@ -21,3 +21,8 @@ yarn build
 ```
 yarn lint
 ```
+
+### 大屏自适应方案
+
+vw 方案
+scale 方案

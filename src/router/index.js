@@ -32,6 +32,12 @@ const routes = [
       },
     ],
   },
+  {
+    // vw vh 自适应方案
+    path: "/vwvh",
+    name: "VWVH",
+    component: () => import("@/views/others/PageVwVh.vue"),
+  },
 ];
 
 const router = new VueRouter({
