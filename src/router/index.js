@@ -13,7 +13,7 @@ const routes = [
     path: "/",
     name: "Layout",
     component: () => import("@/views/home/Layout.vue"),
-    redirect: "/page1",
+    redirect: "/NewHome",
     children: [
       {
         path: "/homeTable",
@@ -37,6 +37,12 @@ const routes = [
     path: "/vwvh",
     name: "VWVH",
     component: () => import("@/views/others/PageVwVh.vue"),
+  },
+  {
+    // 通用自适应
+    path: "/NewHome",
+    name: "Home",
+    component: () => import("@/views/home/NewHome.vue"),
   },
 ];
 

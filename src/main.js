@@ -48,6 +48,21 @@ Vue.use(Option);
 Vue.use(Progress);
 Vue.use(Select);
 
+// 引入echarts
+import * as echarts from 'echarts'
+
+// 引入折线图等组件
+import 'echarts/lib/chart/line'
+import 'echarts/lib/chart/bar'
+
+// 引入提示框和title组件，图例
+import 'echarts/lib/component/tooltip'
+import 'echarts/lib/component/title'
+import 'echarts/lib/component/legend'
+import 'echarts/lib/component/legendScroll'
+import 'echarts/lib/component/toolbox'
+Vue.prototype.$echarts = echarts
+
 Vue.prototype.$http = http;
 Vue.prototype.$confirm = MessageBox.confirm;
 Vue.prototype.$message = Message;
